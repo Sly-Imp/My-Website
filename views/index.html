@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush | Home</title>
+    <link rel="icon" href="media/title.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="title-bar">
+            
+            <img src="media/logo.png" alt="Aayush's logo">
+
+            <div class="nav">
+                <a href="/">Home</a>
+                <a href="#about">About Me</a>
+                <a href="/resume">CV</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="fnav">
+        <a href="#home" title="Home"><i class="bi bi-house-fill"></i></a>
+        <a href="#about" title="About"><i class="bi bi-person-circle"></i></a>
+        <a href="#contact" title="Contact"><i class="bi bi-person-lines-fill"></i></a>
+    </div>
+
+    <main>
+
+        <section class="home" id="home">
+            <div class="text">
+                <p class="intro">Hello, I'm</p>
+                <p class="hero" id="hero"></p>
+                <p class="intro2">Welcome to this website</p>
+            </div>
+
+            <div class="resume">   
+                <h1>My Resume</h1>
+                <div class="read">
+                    <a href="/resume">View Online</a>
+                </div>
+
+                <div class="cvlink">
+                    <a href="files/demo cv.pdf" download>View Offline</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-row1">
+                    <img src="media/dp.jpg" alt="profile picture" class="profile">
+                    <h1 class="naam">Aayush Khatiwada</h1>
+                    <h4 class="nicknaam">Alias: Prince, Khatibhai, Sly Imp</h4>
+
+                    <div class="about-content">
+                        <div class="info">
+                            <h1>About Me</h1>
+                            <p>Profession : Student</p>
+                            <p>Country : Nepal <img src="media/np.png" alt="NP" height="25px"></p>
+                            <p>Birthday : July 9th</p>
+                            <p>Age : 18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sex : M</p>
+                            <p class="detail">I am an enthusiastic person fascinated by programming since a very young age. I like to develop websites and games. I am also interested in learning cybersecurity.</p>
+                        </div>
+                            <hr class="line">
+                        <div class="extra">
+                            
+                            <div class="languages">
+                                <h1>Languages</h1>
+                                <div class="lang-icon">
+                                    <img src="media/html.png" alt="html" height="92px" title="HTML">
+                                    <img src="media/css.png" alt="css" height="92px" title="CSS">
+                                    <img src="media/js.png" alt="js" height="82px" title="Javascript" class="js">
+                                    <img src="media/node.png" alt="node.js" height="92px" title="node.js" class="node">
+                                </div>
+                            </div>
+        
+                            <div class="interest">
+                                <h1>Interests</h1>
+                                <div class="tags">
+                                <div class="r1">
+                                    <p>Programming</p>
+                                    <p>Sky Watching</p>
+                                </div>
+                                <div class="r2">
+                                    <p>Music</p>
+                                    <p>Games</p>
+                                </div>
+                                <div class="r3">
+                                    <p>Movies</p>
+                                    <p>TV-Series</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="contact" id="cont">
+            <h1>Contact</h1>
+            <div class="contact-content">
+                <p>Aayush Khatiwada</p>
+                <p>Ph +977 9801031828</p>
+                <p>khatiwadaprince1@gmail.com</p>
+                <hr size="3" color="#728197">
+                <p>69 Siddartha Marga, Anamnagar</p>
+                <p>Kathmandu, Nepal 44600</p>
+            </div>
+        </div>
+
+        <div class="links" id="links">
+            <h1>Links</h1>
+            <div class="links-content">
+                <p><a href="https://www.facebook.com/Sly.Imp69" target="_blank"><i class="bi bi-facebook"></i>Facebook</a></p>
+                <p><a href="https://www.instagram.com/sly.imp/" target="_blank"><i class="bi bi-instagram"></i>Instagram</a></p>
+                <p><a href="https://github.com/Sly-Imp" target="_blank"><i class="bi bi-github"></i>GitHub</a></p>
+                <p><a href="https://discord.gg/JvqkdWzKah" target="_blank"><i class="bi bi-discord"></i>Discord</a></p>
+            </div>
+        </div>
+
+        <div class="feedback" id="fback">
+            <h1>Feedback</h1>
+            <div class="feedback-content">
+                <form action="/mail" method="post">
+                    <p><span>Full name</span> <input type="text" required name="fullname"> <br> 
+                        <span>Email</span><input type="Email" required name="email"> </p>
+                        <p><span>Your Message</span><textarea name="feedback" id="fedback" cols="30" rows="3" minlength="5" maxlength="100" required></textarea> 
+                            <br> <button class="send">Send</button>
+                            </p>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cprt">
+        <p>© Copyright 2022 Aayush Khatiwada</p>
+    </div>
+
+</body>
+
+<script>
+    var typed = new Typed('#hero', {
+    strings : ['Aayush Khatiwada', 'आयुष खतिवडा'],
+    typeSpeed: 100,
+    backSpeed:60,
+    loop:true
+});
+</script>
+</html>

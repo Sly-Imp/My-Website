@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Outfit', sans-serif;
+    background: #1a212d;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;   /* Yet to learn*/
+}
+
+.title-bar {
+    display: flex;
+}
+
+header .title-bar img {
+    height: 10rem;
+    margin-left: 1rem;
+}
+
+.nav {
+    background: #2d3748;
+    margin-left: 28rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    border-radius: 35px;
+}
+
+.title-bar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 2rem;
+    transition: 0.3s ;
+}
+
+.title-bar a:hover {
+    color: #667fea;
+}
+
+.fnav{
+    right: 4rem;
+    display: grid;
+    font-size: 1.5rem;
+    position: fixed;
+    background: #2d3748;
+    padding: 1rem;
+    border-radius: 35px;
+    /* display: none; */
+}
+
+.fnav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-block: 1rem;
+    transition: 0.3s;
+}
+
+.fnav a:hover{
+    color: #667fea;
+}
+
+.home {
+    display: flex;
+}
+
+.text {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+}
+
+.intro {
+    font-size: 2.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.intro2 {
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 5rem;
+}
+
+.hero {
+    font-size: 4rem;
+    color: cyan;
+    font-weight: 600;
+    position: absolute;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+.resume {
+    margin: 5rem 8rem 20rem 20rem;
+    border: 2px solid cyan;
+    padding: 5rem;
+    border-radius: 1.5rem;
+    transition: 0.7s;
+}
+
+.resume:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    border: 2px solid fuchsia;
+}
+
+.resume h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: -8rem;
+    background: #1a212d;
+    padding: 1rem;
+}
+
+.read {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+
+.cvlink {
+    margin-left: 3rem;
+}
+
+.read a, .cvlink a {
+    text-decoration: none;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-inline: 0.2rem;
+    background: #2d3748;
+    border: 1px solid gray;
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    padding: 0.8rem;
+}
+
+.about {
+    padding: 7rem 15rem;
+    font-family: ubuntu;
+    min-height: 100vh;
+}
+
+.about-row1 {
+    border: 2px solid cyan;
+    border-radius: 2rem;
+    height: 75vh;
+    transition: 0.7s;
+}
+
+.about-row1:hover {
+    border: 2px solid fuchsia;
+    cursor: text;
+}
+
+.about-row1:hover .profile {
+    border: 2px solid fuchsia;
+    cursor: text;
+}
+
+.profile {
+    height: 14rem;
+    border-radius: 50%;
+    border: 2px solid cyan;
+    margin-left: -5rem;
+    margin-top: -4rem;
+    transition: 0.7s;
+}
+
+.naam {
+    text-align: center;
+    font-size: 3.1rem;
+    margin-top: -9rem;
+}
+
+.nicknaam {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.about-content {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.info {
+    margin: 2rem 4.5rem 0 9.5rem;
+    width: 21vw;
+}
+
+.info h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 2rem 0 1rem 0;
+}
+
+.info p {
+    font-size: 1.3rem;
+}
+
+.detail {
+    margin-top: 1rem;
+}
+
+.line {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    height: 21rem;
+    border: 1px solid gray;
+}
+
+.extra {
+    margin: 3.5rem 3rem;
+}
+
+.languages h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.languages img {
+    height: 4rem;
+    margin: 0.5rem 0.5rem 1rem 0;
+}
+
+.languages .js {
+    height: 3.2rem;
+    margin-inline: 0.5rem;
+}
+
+.languages .node {
+    height: 3.7rem;
+    margin-inline: 0.5rem;
+}
+
+.interest h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.tags {
+    margin-top: 0.5rem;
+}
+
+.r1, .r2, .r3 {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.tags p {
+    cursor: pointer;
+    color: whitesmoke;
+    margin-inline: 0.2rem;
+    background: #2d3748;
+    border: 1px solid gray;
+    width: 50%;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    background: #2d3748;
+    font-family: ubuntu;
+}
+
+.contact hr {
+    width: 125%;
+    margin: 4px;
+    margin-left: -3px;
+}
+
+.contact {
+    margin: 4rem 9rem;
+}
+
+.links {
+    margin: 3rem;
+}
+
+.contact-content, .links-content, .feedback-content {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #667fea;
+    font-family: ubuntu;
+}
+
+.contact-content p {
+    padding: 0.5rem 0;
+}
+
+.links-content p {
+    padding: 1rem 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-content .bi {
+    margin: 0 0.4rem;
+}
+
+.bi-facebook {
+    color: #4267B2;
+}
+
+.bi-instagram {
+    color: #E1306C;
+}
+
+.bi-discord {
+    color: #7289d9;
+}
+
+.feedback {
+    margin: 3rem 0;
+    padding: 0 4rem 0 9rem;
+}
+
+.feedback input {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    width: 120%;
+    border: none;
+    color: azure;
+    outline: none;
+    background: none;
+    margin-right:2rem;
+    border-bottom: solid #728197;
+}
+
+.feedback textarea {
+    font-size: 1rem;
+    color: azure;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: solid #728197;
+    width: 120%;
+}
+
+.feedback span {
+    color: lightgreen;
+}
+
+.send {
+    width: 120%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color:grey;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cprt {
+    background: #434343;
+    height: 36px;
+    text-align: center;
+}
+
+.cprt p {
+    padding-top: 0.5rem;
+    font-family: Comic Sans MS;
+}
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(17, 224, 224, 0.941);
+    border-radius: 100vw;
+    transition: 0.7s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: fuchsia;
+}

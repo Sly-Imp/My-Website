@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: #2d3748;
+    color: white;
+    overflow-x: hidden;   /* Yet to learn*/
+}
+
+.title-bar {
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+header .title-bar img {
+    height: 10rem;
+    margin-left: 1rem;
+}
+
+.nav {
+    background: #5F6F94;
+    margin-left: 55rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    border-radius: 35px;
+}
+
+.title-bar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 2rem;
+    transition: 0.3s ;
+}
+
+.title-bar a:hover {
+    color: #667fea;
+}
+
+.row1, .row2 {
+    display: flex;
+}
+
+.post-container {
+    width: 50%;
+}
+
+.postcard {
+    margin: 0 0 8rem  4rem;
+    width: 85%;
+    background: #354259;
+    border-radius: 1rem;
+    transition: 0.5s;
+    top: 0;
+}
+
+.postcard:hover {
+    box-shadow: -0.2rem 0.2rem 10px #354259;
+}
+
+.card-content  {
+    padding: 2rem 4rem;
+}
+
+.postcard img {
+    height:17rem;
+    margin: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.postcard a {
+    text-decoration: none;
+    color: white;
+}
+
+.postcard h1 {
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+}
+
+.postcard P{
+    margin: 0.5rem 2rem 2rem 0.5rem;
+    color: #bebbbb;
+}
+
+.author {
+    margin: 0.5rem 0 0 0.5rem;
+    display: flex;
+    font-weight: 100;
+    color: rgb(220, 216, 216);
+}
+
+.author img {
+    height: 3rem;
+    margin: 0 -1.5rem 0 0;
+    border-radius: 50%;
+}
+
+.author h4 {
+    margin-top: 0.3rem;
+}
+
+.author span {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.cprt {
+    background: #434343;
+    height: 36px;
+    text-align: center;
+}
+
+.cprt p {
+    padding-top: 0.5rem;
+    font-family: Comic Sans MS;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #626060a4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #354259;
+    border-radius: 100vw;
+    border: 2px solid gray;
+}
