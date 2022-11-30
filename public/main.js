@@ -2,7 +2,7 @@ const myNav = document.getElementsByClassName('fnav')[0];
 const goUp = document.getElementsByClassName('goup')[0];
 
 window.onscroll = ()=>{
-    if(window.scrollY >= 100 && window.scrollY <= 1050){
+    if(window.scrollY >= 100 && window.scrollY <= 950){
         myNav.style.right='4rem';
     }
     else{
