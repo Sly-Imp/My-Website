@@ -109,9 +109,14 @@ header .title-bar img {
     height: 120%;
 }
 
+.resume {
+    display: grid;
+    justify-content: center;
+}
+
 .read {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-top: 0;
+    margin-bottom: 7rem;
     margin-left: 3rem;
 }
 
