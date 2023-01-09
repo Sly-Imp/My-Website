@@ -7,11 +7,11 @@
 }
 
 body, html {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Indie Flower', cursive;
     background: #1a212d;
     color: white;
     scroll-behavior: smooth;
-    overflow-x: hidden;   /* Yet to learn*/
+    overflow-x: hidden;
 }
 
 .title-bar {
@@ -137,14 +137,14 @@ header .title-bar img {
 }
 
 .h1 {
-    font-size: 50px;
+    font-size: 2rem;
     color: #667fea;
     margin-bottom: 1rem;
 }
 
 .h1::after {
     content: '';
-    width: 43%;
+    width: 25%;
     height: 5px;
     background: #667fea;
     display: block;
@@ -159,7 +159,7 @@ header .title-bar img {
 }
 
 .sk1 span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .cvleft .skills .jsicon {
@@ -187,15 +187,83 @@ header .title-bar img {
 }
 
 .cvright .aboutme {
-    width: 50%;
+    width: 60%;
     margin-left: 17rem;
 }
 
 .cvright .aboutme .abt {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: justify;
     margin-top: 2rem;
 }
+
+.cvright .projects {
+    width: 60%;
+    margin-left: 17rem;
+    margin-top: 3rem;
+}
+
+.cvright .projects .project1 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.h2 a{
+    text-decoration: none;
+    color: #26b4e7;
+}
+
+.one::before {
+    content: '1. ';
+    margin-left: -2rem;
+}
+
+.cvright .projects .project2 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.two::before {
+    content: '2. ';
+    margin-left: -2rem;
+}
+
+.cvright .projects .project3 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.three::before {
+    content: '3. ';
+    margin-left: -2rem;
+}
+
+.cvright .ecas {
+    width: 60%;
+    margin-left: 17rem;
+    margin-top: 3rem;
+}
+
+.cvright .ecas .eca1 {
+    display: flex;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.cvright .ecas .eca2 {
+    display: flex;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.date {
+    margin-right: 2rem;
+}
+
 
 /* .about {
     padding: 7rem 15rem;
@@ -443,15 +511,17 @@ footer {
     position: fixed;
     right: 2rem;
     /* bottom: 1rem; */
-    bottom: -3rem;
+    bottom: -2rem;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .goup i {
     font-size: 1.8rem;
-    padding-inline: 0.5rem;
+    padding-inline: 0.6rem;
     color: black;
+    position: relative;
+    top: -0.3rem;
 }
 
 ::-webkit-scrollbar {
