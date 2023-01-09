@@ -14,6 +14,29 @@ body, html {
     overflow-x: hidden;
 }
 
+.notice {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100vw;
+    height: 200%;
+    z-index: 1;
+}
+
+.not-cont {
+    margin: 10rem;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1350px) {
+    body,html {
+        overflow-y: hidden;
+    }
+     .notice {
+        display: block;
+     }
+}
+
 .title-bar {
     display: flex;
 }
@@ -25,7 +48,7 @@ header .title-bar img {
 
 .nav {
     background: #2d3748;
-    margin-left: 28rem;
+    margin-left: 38rem;
     margin-top: 2.5rem;
     margin-bottom: 4rem;
     padding: 1rem;
@@ -112,11 +135,11 @@ header .title-bar img {
 
 .resume {
     display: flex;
-    padding: 1rem;
     font-family: 'Indie Flower', cursive;
     border: 3px solid #667fea;
     margin: 3rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
+    padding-bottom: 2rem;
 }
 
 .cvleft {
