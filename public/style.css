@@ -7,7 +7,7 @@
 }
 
 body, html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     background: #1a212d;
     color: white;
     scroll-behavior: smooth;
@@ -125,7 +125,7 @@ header .title-bar img {
 
 .potrait {
     margin-left: 20rem;
-    margin-bottom: 7rem;
+    margin-bottom: 6.7rem;
 }
 
 .potrait img {
@@ -133,7 +133,272 @@ header .title-bar img {
     margin-top: 1rem;
 }
 
-.resume {
+.about {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(3, 6, 19, 0.7));
+    min-height: 100vh;
+    padding: 5rem 6rem 3rem 6rem;
+}
+
+.about .abt-cont {
+    display: flex;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/aboutwall.jpg");
+    background-position: center;
+    border-radius: 2rem;
+}
+
+.about .image {
+    margin: 7rem 3rem;
+}
+
+.about .image img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.about .text {
+    margin: 7rem 3rem;
+}
+
+.about .text .name {
+    margin-bottom: 3rem;
+}
+
+.name h1 {
+    font-size: 4rem;
+}
+
+.name h3 {
+    font-size: 2.5rem;
+}
+
+.text .aboutme {
+    font-size: 1.7rem;
+    text-align: justify;
+    width: 90%;
+}
+
+
+.skills {
+    background: linear-gradient(rgba(3, 6, 19, 0.7),rgba(4,9,30,0.7));
+    min-height: 100vh;
+    padding: 3rem 6rem;
+}
+
+.skills-cont {
+    display: flex;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/aboutwall.jpg");
+    background-position: center;
+    border-radius: 2rem;
+}
+
+.education {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(3, 6, 19, 0.7));
+    min-height: 100vh;
+    padding: 6rem 6rem;
+}
+
+.edu-cont {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/eduwall.jpg");
+    background-position: center;
+    border-radius: 2rem;
+}
+
+.education .h1 {
+    display: grid;
+    font-size: 3rem;
+    justify-content: center;
+    padding-top: 3rem;
+
+}
+
+.edu-cont .edu-carousel {
+    display: flex;
+}
+
+.glass {
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 1rem;
+}
+
+.edu-logo {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.edu-logo img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.edu1 {
+    margin: 3rem 4rem 6rem 15rem;
+    width: 25rem;
+}
+
+.edu2 {
+    margin-block: 3rem 6rem;
+    width: 25rem;
+}
+
+.a{
+    font-size: 1.7rem;
+    display: grid;
+    justify-content: center;
+}
+
+.b{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.project {
+    background: linear-gradient(rgba(3, 6, 19, 0.7),rgba(4,9,30,0.7));
+    min-height: 100vh;
+    padding: 3rem 6rem;
+}
+
+.project-cont {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/projectwall.jpg");
+    background-position: center;
+    border-radius: 2rem;
+}
+.project .h1 {
+    display: grid;
+    font-size: 3rem;
+    justify-content: center;
+    padding-top: 3rem;
+
+}
+
+.project-cont .project-carousel {
+    display: flex;
+}
+
+.glass {
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 1rem;
+}
+
+.project-logo {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.project-logo img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.proj1 {
+    margin: 3rem 2rem 6rem 2.5rem;
+    width: 25rem;
+}
+
+.proj2 {
+    margin-block: 3rem 6rem;
+    margin-right: 2rem;
+    width: 25rem;
+}
+
+.proj3 {
+    margin-block: 3rem 6rem;
+    width: 25rem;
+}
+
+ .project .a{
+    font-size: 1.7rem;
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+}
+
+.project .b{
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    text-align: justify;
+}
+
+.ecas {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(3, 6, 19, 0.7));
+    min-height: 100vh;
+    padding: 6rem 6rem;
+}
+
+.ecas-cont {
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/eduwall.jpg");
+    background-position: center;
+    border-radius: 2rem;
+}
+
+.ecas .h1 {
+    display: grid;
+    font-size: 3rem;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.ecas-cont .ecas-carousel {
+    display: flex;
+}
+
+.glass {
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 1rem;
+}
+
+.ecas-logo {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.ecas-logo img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.eca1 {
+    margin: 3rem 4rem 6rem 15rem;
+    width: 25rem;
+}
+
+.eca2 {
+    margin-block: 3rem 6rem;
+    width: 25rem;
+}
+
+.ecas .a{
+    font-size: 1.7rem;
+    display: grid;
+    justify-content: center;
+}
+
+.ecas .b{
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    text-align: justify;
+}
+
+
+/* .resume {
     display: flex;
     font-family: 'Lato', sans-serif;
     border: 3px solid #667fea;
@@ -311,7 +576,7 @@ header .title-bar img {
 
 .date {
     margin-right: 2rem;
-}
+} */
 
 
 /* .about {

@@ -3,7 +3,7 @@ const goUp = document.getElementsByClassName('goup')[0];
 
 window.onscroll = ()=>{
     if(window.scrollY >= 100 && window.scrollY <= 2169){
-        myNav.style.right='4rem';
+        myNav.style.right='2rem';
     }
     else{
         myNav.style.right='-5rem';
