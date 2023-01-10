@@ -7,7 +7,7 @@
 }
 
 body, html {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lato', sans-serif;
     background: #1a212d;
     color: white;
     scroll-behavior: smooth;
@@ -135,11 +135,12 @@ header .title-bar img {
 
 .resume {
     display: flex;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lato', sans-serif;
     border: 3px solid #667fea;
-    margin: 3rem;
+    margin: 5rem;
     border-radius: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4.2rem;
+    padding-top: 3.5rem;
 }
 
 .cvleft {
