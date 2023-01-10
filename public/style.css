@@ -338,7 +338,7 @@ header .title-bar img {
 }
 
 .ecas-cont {
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/eduwall.jpg");
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/ecawall.png");
     background-position: center;
     border-radius: 2rem;
 }
