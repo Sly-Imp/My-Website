@@ -89,16 +89,19 @@ header {
     min-width: 100vw;
     position: fixed;
     background: transparent;
-    display: none;
+    display: flex;
     z-index: 2;
-    transition: 1s;
 }
 
 .fnav {
     border-radius: 2vh;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/media/homewall.png");
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     position: absolute;
     margin: 7vw 0 0 1vw;
+    transition: 0.3s;
+    left: -6rem;
 }
 
 .fnav ul {
@@ -265,7 +268,7 @@ header {
     border-radius: 1rem;
 }
 
-.full {
+/* .full {
     width: 95%;
 }
 
@@ -287,6 +290,11 @@ header {
 
 .empty {
     width: 5%;
+} */
+
+.anim {
+    width: 0;
+    transition: 2s;
 }
 
 .education {
@@ -644,7 +652,7 @@ footer {
     position: fixed;
     right: 2rem;
     /* bottom: 1rem; */
-    bottom: -2rem;
+    bottom: -4rem;
     cursor: pointer;
     transition: 0.3s;
 }
