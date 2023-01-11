@@ -1,14 +1,14 @@
-const myNav = document.getElementsByClassName('fnav')[0];
+const myNav = document.getElementsByClassName('ftitle-bar')[0];
 const goUp = document.getElementsByClassName('goup')[0];
 
 window.onscroll = ()=>{
-    if(window.scrollY >= 100 && window.scrollY <= 2169){
-        myNav.style.right='2rem';
+    if(window.scrollY >= 705){
+        myNav.style.display='flex';
     }
     else{
-        myNav.style.right='-5rem';
+        myNav.style.display='none';
     }
-    if(window.scrollY >=2581){
+    if(window.scrollY >=4312){
         goUp.style.bottom='1rem';
     }
     else{
